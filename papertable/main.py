@@ -1,15 +1,27 @@
 # %%
+import os
+
 import bibtexparser
 import pandas as pd
+import requests
 
 import papertable as pt
 
-# %% Sort table
+# Download Sciwheel references
+headers = {"Authorization": "Bearer {}".format(os.getenv("SCIWHEEL"))}
+data = requests.get(
+    "https://sciwheel.com/extapi/work/references/export?projectId=499895",
+    headers=headers,
+)
+
+print(data.text, file=open(pt.external_dir() / "refs.bib", "w"))
+
+# Sort table
 df = pd.read_csv(pt.external_dir() / "table.csv")
 df = df.groupby(["Task", "Techniques", "Domain"]).first()
 df.to_csv(pt.external_dir() / "table.csv")
 
-# %% Generate table html
+# Generate table html
 html_string = """
 <html>
   <link rel="stylesheet" type="text/css" href="{stylecss}"/>
@@ -28,7 +40,7 @@ html_string = """
 </html>.
 """
 
-# %% Get references
+# Get references
 remove_keywords = [
     i
     for i in open(pt.external_dir() / "refs.bib", "r").readlines()
