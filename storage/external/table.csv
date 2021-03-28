@@ -6,29 +6,38 @@ Attack graph generation,Docker-compose + Clair + BFS,Microservices,ibrahim_2019
 Attack graph generation,Heuristic,Network system,stan_2021
 Attack graph generation,NLP using NVD + MulVal,NVD,binyamini_2020
 Attack graph generation,Rule-based + ML + NVD,Linux,"aksu_2018, ou_2005"
-Automated security vulnerability prediction,Code property graphs,Compiled language,"xiaoningdu_2019, suneja_2019"
+Automated code review remediation,NLP,Gerrit + Java,huq_2020
+Automated security vulnerability prediction,Code property graphs,Compiled language,"xiaoningdu_2019, suneja_2020"
 Automated security vulnerability prediction,Code property graphs,Linux,zhai_2020
-Automated security vulnerability prediction,CodeQL,All,GitHub LGTM
+Automated security vulnerability prediction,CodeQL,All,Semmle LGTM (GitHub)
+Automated security vulnerability prediction,Information Retrieval + DL?,All,Snyk DeepCode.ai
 Automated security vulnerability prediction,Maximal divergence (DL) on binaries,Compiled,le_2019
 Automated security vulnerability prediction,NLP,Compiled language (C++),"li_2018, li_2020, li_2021, chakraborty_2020"
 Automated security vulnerability prediction,NLP,Web application security,liu_2020
-Automated security vulnerability prediction,Similarity matching,All,Snyk DeepCode.ai
 Automatic exploit generation,Data flow graphs,Linux,hu_2015
 Automatic exploit generation,Fuzzing,Linux,zhao_2020
 Automatic exploit generation,Fuzzing,Web application security,you_2019
 Automatic exploit generation,Fuzzing + NLP using NVD,Linux,you_2017
-Code representation,Code flow graphs,Java + Python,liu_2021
-Code representation,NLP + GitHub Semantic,Language agnostic,zgner_2021
-Code representation,Transfer learning + Data flow graphs,Language agnostic,guo_2021
 Code search,Code knowledge graphs,Interpreted (Python),abdelaziz_2020
+Code search,NLP,Compiled (Java),"gu_2018, li_2020a"
+Code summarisation,Code flow graphs,Java + Python,liu_2021
+Code summarisation,NLP + GitHub Semantic,Language agnostic,zgner_2021
+Code summarisation,NLP + Information Retrieval,Java + Python,zhang_2020d
+Code summarisation,Transfer learning + Data flow graphs,Language agnostic,guo_2020a
 Dataset generation,Differential analysis,Compiled (C++),zheng_2021
-Developer understanding,Knowledge graphs,All,"zhao_2017, zhou_2018"
+Developer understanding,Knowledge graphs,All,"zhao_2017, zhou_2018, rastogi_2021"
 Exploit prediction,NLP,NVD,"tavabi_2018, fang_2020"
 Exploit prediction,NLP + Security Events,Private Customer Data,shen_2019
+Exploit prediction,NLP + Social Media,Twitter/NVD,"sabottke_2015, bullough_2017"
 Fault localisation,Knowledge graphs,All,li_2021b
+Feature location,Document vectors,Compiled (Java),corley_2015
+Feature location,Info Retrieval + Dynamic Analysis + Web mining,Compiled (Java),revelle_2010
+Fix commit identification,NLP,NVD,hommersom_2021
+Fix commit identification,NLP + HAN,NVD,sun_2020
 Human-centric vulnerability training,Information retrieval + Gamification,All,Secure Code Warriors
 Identifying OSS reuse,Redundancy  elimination,Compiled (C++),woo_2021
-Patch cleaning,AST-based similarity matching,Compiled (Java),jiang_2021
+Patch cleaning,AST-based similarity matching,Compiled (Java),"jiang_2021, kawrykow_2011, tsantalis_2018, thung_2013, defects4J"
+Patch cleaning,Manual,All,brito_2021
 Preventing compatibility failures,Similarity matching of releases using binary,Compiled,jia_2021
 Security vulnerability assessment,NLP,All,han_2017
 Security vulnerability assessment,NLP,Compiled (Java),DeepCVA
