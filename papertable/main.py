@@ -28,7 +28,7 @@ html_string = """
   <body>
     <div class="container">
         <div class="fixed">
-            <span style="font-size:30pt">Topic permutations</span>
+            <span style="font-size:30pt">Topics</span>
             {table}
         </div>
         <div class="flex-item">
