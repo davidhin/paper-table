@@ -18,12 +18,16 @@ Automatic exploit generation,Data flow graphs,Linux,hu_2015
 Automatic exploit generation,Fuzzing,Linux,zhao_2020
 Automatic exploit generation,Fuzzing,Web application security,you_2019
 Automatic exploit generation,Fuzzing + NLP using NVD,Linux,you_2017
+Code search,AST + Variable-based Flow Graphs (not joern),C + GitHub,zeng_website_2021
 Code search,Code knowledge graphs,Interpreted (Python),abdelaziz_2020
 Code search,NLP,Compiled (Java),"gu_2018, li_2020a"
 Code summarisation,Code flow graphs,Java + Python,liu_2021
 Code summarisation,NLP + GitHub Semantic,Language agnostic,zgner_2021
 Code summarisation,NLP + Information Retrieval,Java + Python,zhang_2020d
 Code summarisation,Transfer learning + Data flow graphs,Language agnostic,guo_2020a
+Code-level OSS vulnerability checking,Extends Ponta_2020,Javascript,kula_2020
+Code-level OSS vulnerability checking,Fix commit + Call graphs + Knowledge Base,Java + Python,ponta_2020
+Code-level OSS vulnerability checking,TBD,TBD,alfadel_2021
 Dataset generation,Differential analysis,Compiled (C++),zheng_2021
 Developer understanding,Knowledge graphs,All,"zhao_2017, zhou_2018, rastogi_2021"
 Exploit prediction,NLP,NVD,"tavabi_2018, fang_2020"
@@ -32,6 +36,7 @@ Exploit prediction,NLP + Social Media,Twitter/NVD,"sabottke_2015, bullough_2017"
 Fault localisation,Knowledge graphs,All,li_2021b
 Feature location,Document vectors,Compiled (Java),corley_2015
 Feature location,Info Retrieval + Dynamic Analysis + Web mining,Compiled (Java),revelle_2010
+Finding design-impactful changes,TBA,TBA,ucha_2021
 Fix commit identification,NLP,NVD,hommersom_2021
 Fix commit identification,NLP + HAN,NVD,sun_2020
 Human-centric vulnerability training,Information retrieval + Gamification,All,Secure Code Warriors
